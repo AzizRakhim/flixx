@@ -3,7 +3,7 @@ const global = {
 };
 
 // Highlight active link
-function highlightActiveLink(index) {
+function highlightActiveLink() {
   const links = document.querySelectorAll(".nav-link");
   links.forEach((link) => {
     if (link.getAttribute("href") === global.currentPage) {
